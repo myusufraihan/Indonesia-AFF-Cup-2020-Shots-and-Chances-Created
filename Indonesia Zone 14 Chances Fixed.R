@@ -32,17 +32,18 @@ ggp_inachances <- ina_chances %>%
   coord_flip(xlim = c(50,100),
              ylim = c(0,100))+
 ## Add the description
-  geom_rect(xmin=83,xmax=66.6,ymin=66.6,ymax=33.3,alpha=0.015,fill="lightgrey",size=1,linetype="dashed",color="grey")+
-  annotate("text",x=53,y=98,family="Montserrat SemiBold",label="ZONE 14 CHANCES",alpha=0.5,hjust=1,color="black", size = 10)+
-  annotate("text",x=56,y=98,family="Montserrat SemiBold",label=paste(sum(chances_count$n), "TOTAL CHANCES CREATED"), alpha=0.5,hjust=1,color="black", size = 5)+
-  annotate("text",x=68,y=50,family="Montserrat SemiBold",label="ZONE 14",alpha=0.25,color="black", size = 5)+
-  annotate("text",x=57,y=-2,family="Montserrat SemiBold",
+  geom_rect(xmin=83, xmax=66.6, ymin=66.6, ymax=33.3, alpha=0.015, fill="lightgrey", size=1, linetype="dashed", color="grey")+
+  annotate("text", x=53, y=98, family="Montserrat SemiBold", label="ZONE 14 CHANCES", alpha=0.5, hjust=1, color="black", size=10)+
+  annotate("text", x=56, y=98, family="Montserrat SemiBold", label=paste(sum(chances_count$n), "TOTAL CHANCES CREATED"), alpha=0.5, hjust=1, color="black", size=5)+
+  annotate("text", x=68, y=50, family="Montserrat SemiBold", label="ZONE 14", alpha=0.25, color="black", size=5)+
+  annotate("text", x=57, y=-2, family="Montserrat SemiBold",
            label="
            Ricky Kambuaya: 4
            Witan Sulaeman: 3
            Rachmat Irianto: 2
            Alfeandra Dewangga: 1
-           Dedik Setiawan: 1",hjust = 0,color="black", size = 4)+
+           Dedik Setiawan: 1",
+           hjust=0, color="black", size=4)+
   labs(title = "Where do Indonesia create their chances from?",
        subtitle = "AFF Suzuki Cup 2020",
        caption = glue("Made using FC Python's Event Tagging Tool
