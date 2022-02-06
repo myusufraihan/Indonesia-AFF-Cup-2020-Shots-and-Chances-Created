@@ -1,5 +1,5 @@
 # Indonesia AFF Cup 2020 Shots and Chances Created
-Halo semuanya! Disini saya udah upload file semua shots dan chances created dari Indonesia selama AFF Suzuki Cup 2020! Data yang available adalah jenis tembakan dan lokasinya, untuk yang lainnya seperti xG dan situasi permainan belum bisa karena keterbatasan waktu dan belum mampu juga hehe. Silakan didownload dan berkreasi!
+Halo semuanya! Disini saya udah upload file semua shots dan chances created dari Indonesia selama AFF Suzuki Cup 2020! Data yang available adalah jenis tembakan dan lokasinya, untuk yang lainnya seperti xG dan situasi permainan belum bisa karena keterbatasan waktu dan belum mampu juga hehe. Silakan didownload dan selamat berkreasi!
 
 Selain itu, saya juga akan membagikan salah satu kode untuk visualisasi yang telah saya buat:
 
